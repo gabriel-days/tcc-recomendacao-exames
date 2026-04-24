@@ -17,13 +17,11 @@ O projeto é delimitado à **validação técnica** do sistema. Não contempla i
 
 ## 👥 Equipe
 
-| Nome | Frente |
-|---|---|
-| José | Dados & Código |
-| Lucas | Documento (TCC) |
-| Gabriel | Apresentação & Validação |
+| José Marcos dos Santos |
+| Lucas Kaina Martins de Souza |
+| Gabriel Dias do Prado |
 
-**Orientador:** a definir  
+**Orientadora:** Christiane Bischof dos Santos
 **Instituição:** FAE Centro Universitário  
 **Curso:** Ciência de Dados para Negócios
 
@@ -40,11 +38,11 @@ Desenvolver e avaliar um sistema de recomendação de exames médicos baseado em
 | Item | Decisão |
 |---|---|
 | Base de dados | MIMIC-IV (PhysioNet — MIT) |
-| Tabelas principais | `labevents`, `d_labitems`, `diagnoses_icd` |
+| Tabelas principais | TBD |
 | Abordagem | Similaridade de perfil clínico entre pacientes |
-| Modelo base | Random Forest ou XGBoost |
-| Explicabilidade | SHAP values |
-| Métricas | Precisão@k, Recall@k |
+| Modelo base | TBD |
+| Explicabilidade | TBD |
+| Métricas | TBD |
 | Linguagem | Python |
 | Fora do escopo | Validação clínica real, implantação hospitalar |
 
@@ -68,16 +66,13 @@ tcc-recomendacao-exames/
 ---
 
 ## 🚀 Como Executar
-
 ### Pré-requisitos
 - Python 3.10+
 - Jupyter Notebook ou VS Code com extensão Jupyter
-- Bibliotecas: `pandas`, `scikit-learn`, `xgboost`, `shap`, `matplotlib`
+- Bibliotecas: TBD
 
 ### Instalação das dependências
-```bash
-pip install pandas scikit-learn xgboost shap matplotlib jupyter
-```
+TBD
 
 ### Execução
 1. Baixe os dados do MIMIC-IV e coloque na pasta `dados/` (não versionada)
